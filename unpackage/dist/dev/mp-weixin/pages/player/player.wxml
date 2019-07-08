@@ -1,0 +1,1 @@
+<view class="content"><view class="header"><image class="logo" src="/static/images/logo.png"></image></view><view class="play-title">{{''+title+''}}</view><video class="player" src="{{playerurl}}" controls="controls"></video><view class="desc-title">视频介绍</view><view class="desc">{{''+desc+''}}</view></view>

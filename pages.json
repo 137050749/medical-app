@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarBackgroundColor":"whitesmoke"
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText": "新闻专区",
+				"navigationBarBackgroundColor":"whitesmoke"}
+        }
+        ,{
+            "path" : "pages/video/video",
+            "style" : {
+				"navigationBarTitleText": "课程专区",
+				"navigationBarBackgroundColor":"whitesmoke"
+			}
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor":"whitesmoke"
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				// "titleNView": false
+				"navigationBarBackgroundColor":"white"
+			}
+        }
+        ,{
+            "path" : "pages/player/player",
+            "style" : {
+				"navigationBarBackgroundColor":"white"
+			}
+        }
+        ,{
+            "path" : "pages/item-detail/item-detail",
+            "style" : {
+				"navigationBarBackgroundColor":"white"
+			}
+        }
+        ,{
+            "path" : "pages/focus-course/focus-course",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/recommend/recommend",
+		    "style" : {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": " ",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#000000",
+	    "selectedColor": "#1296db",
+	    "borderStyle": "black",
+	    "backgroundColor": "whitesmoke",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/home-l.png",
+	        "selectedIconPath": "static/images/home-a.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "static/images/news-l.png",
+	        "selectedIconPath": "static/images/news-a.png",
+	        "text": "新闻"
+	    }, {
+	        "pagePath": "pages/video/video",
+	        "iconPath": "static/images/video-l.png",
+	        "selectedIconPath": "static/images/video-a.png",
+	        "text": "课程"
+	    }, {
+	        "pagePath": "pages/profile/profile",
+	        "iconPath": "static/images/main-l.png",
+	        "selectedIconPath": "static/images/main-a.png",
+	        "text": "我的"
+	    }]
+	}
+}

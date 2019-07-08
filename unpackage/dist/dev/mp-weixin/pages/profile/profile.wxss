@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header .logo.data-v-458016bd {
+  width: 160rpx;
+  height: 50rpx;
+  position: fixed;
+  top: 20rpx;
+  left: 20rpx;
+  z-index: 1000;
+}
+.loaded .person-info.data-v-458016bd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 100rpx;
+  padding-bottom: 60rpx;
+}
+.loaded .person-info .photo.data-v-458016bd {
+    width: 80rpx;
+    height: 80rpx;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 6rpx solid #1296db;
+    padding: 10rpx;
+    overflow: hidden;
+    margin-right: 80rpx;
+}
+.loaded .person-info .person-name.data-v-458016bd {
+    font-size: 32rpx;
+    color: #999;
+    font-weight: 600;
+    line-height: 100rpx;
+}
+.loaded .person-info .exitBtn.data-v-458016bd {
+    height: 60rpx;
+    padding: 0 20rpx;
+    margin-top: 20rpx;
+    text-align: center;
+    vertical-align: center;
+    line-height: 60rpx;
+    font-size: 32rpx;
+    color: #999;
+    position: relative;
+    left: 140rpx;
+    top: 0;
+}
+.unloading.data-v-458016bd {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40rpx;
+}
+.unloading .loading-info.data-v-458016bd {
+    width: 90%;
+    background-color: #fff;
+    border: 4rpx solid #1296db;
+    position: relative;
+    top: 200rpx;
+    padding: 30rpx;
+    -webkit-border-radius: 10rpx;
+            border-radius: 10rpx;
+}
+.unloading .loading-info .loading-input input.data-v-458016bd {
+      border: 1px solid #999;
+      font-size: 24rpx;
+      -webkit-border-radius: 6rpx;
+              border-radius: 6rpx;
+      display: inline-block;
+      margin: 30rpx 0;
+      width: 100%;
+}
+.unloading .loading-info .loading-input button.data-v-458016bd {
+      margin-bottom: 30rpx;
+}
+.focus-title.data-v-458016bd {
+  font-size: 28rpx;
+  padding: 20rpx 0 0 20rpx;
+}
+.scroll-view_H.data-v-458016bd {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap;
+}
+.scroll-view-item_H.data-v-458016bd {
+  display: inline-block;
+  width: 100%;
+  height: 260rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.course-name.data-v-458016bd {
+  width: 100%;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.course-img.data-v-458016bd {
+  width: 100%;
+  height: 180rpx;
+}
+.course-info.data-v-458016bd {
+  width: 300rpx;
+  padding: 20rpx 0px 20rpx 20rpx;
+}
+
